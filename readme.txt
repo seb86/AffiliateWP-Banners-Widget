@@ -3,8 +3,8 @@ Version: 1.0.0
 Author URI: http://www.sebastiendumont.com
 Author: Sebastien Dumont
 Contributors: sebd86
-Donate link: 
-Tags: affiliatewp, affiliate, banner, banners, widget, widgets, Sebastien Dumont, Pippin Williamson
+Donate link: https://www.paypal.com/cgi-bin/webscr?cmd=_xclick&business=mailme@sebastiendumont.com&currency_code=EUR&amount=&return=&item_name=Buy+me+a+coffee+for+Affiliate+WP+Affiliate+Banners+Widget+Plugin
+Tags: affiliatewp, affiliate, banner, banners, widget, widgets, Sebastien Dumont, Pippin Williamson, Sumobi
 Tested up to 3.9.1
 Stable Tag: Trunk
 
@@ -23,6 +23,6 @@ With this plugin you'll be able to easily display nice [AffiliateWP](http://affi
 
 == Changelog ==
 
-= 1.0.0 =
+= 1.0.0 - 14th May 2014 =
 
 * Initial release
