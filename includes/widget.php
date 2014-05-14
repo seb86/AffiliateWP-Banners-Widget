@@ -48,14 +48,14 @@ class AffiliateWP_Affiliate_Banners extends WP_Widget {
 			'size' 				=> array(
 				'type' 			=> 'select',
 				'options' 		=> array(
-					'125x125' 				=> '125x125', 
-					'234x60' 				=> '234x60', 
-					'300x250' 				=> '300x250', 
-					'300x250-get-started' 	=> '300x250 - ' . __( 'Get Started', 'affiliatewp-banners-widget' ), 
-					'300x250-white' 		=> '300x250 - ' . __( 'White', 'affiliatewp-banners-widget' ), 
-					'300x600-white' 		=> '300x600', 
-					'468x60' 				=> '468x60', 
-					'728x90' 				=> '728x90'
+					'125x125' 					=> '125x125', 
+					'234x60' 					=> '234x60', 
+					'300x250' 					=> '300x250', 
+					'300x250-get-started' 		=> '300x250 - ' . __( 'Get Started', 'affiliatewp-banners-widget' ), 
+					'300x250-get-started-white' => '300x250 - ' . __( 'Get Started White', 'affiliatewp-banners-widget' ), 
+					'300x600-white' 			=> '300x600', 
+					'468x60' 					=> '468x60', 
+					'728x90' 					=> '728x90'
 				),
 				'label' => __( 'Size', 'affiliatewp-banners-widget')
 			),

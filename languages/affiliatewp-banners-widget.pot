@@ -1,8 +1,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: AffiliateWP Banners Widget\n"
-"POT-Creation-Date: 2014-05-14 19:42+0100\n"
-"PO-Revision-Date: 2014-05-14 19:42+0100\n"
+"POT-Creation-Date: 2014-05-14 20:09+0100\n"
+"PO-Revision-Date: 2014-05-14 20:10+0100\n"
 "Last-Translator: Sebastien <sebastien@sebs-studio.com>\n"
 "Language-Team: Sebastien Dumont <mailme@sebastiendumont.com>\n"
 "Language: en_US\n"
@@ -18,11 +18,11 @@ msgstr ""
 "_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
 "X-Poedit-SearchPath-0: .\n"
 
-#: affiliatewp-banners-widget.php:166
+#: affiliatewp-banners-widget.php:128
 msgid "Documentation"
 msgstr ""
 
-#: affiliatewp-banners-widget.php:221
+#: affiliatewp-banners-widget.php:175
 #, php-format
 msgid "Sorry, %s requires WordPress "
 msgstr ""
@@ -57,7 +57,7 @@ msgid "Get Started"
 msgstr ""
 
 #: includes/widget.php:55
-msgid "White"
+msgid "Get Started White"
 msgstr ""
 
 #: includes/widget.php:60
