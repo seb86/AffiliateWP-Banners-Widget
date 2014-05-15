@@ -1,8 +1,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: AffiliateWP Banners Widget\n"
-"POT-Creation-Date: 2014-05-14 20:09+0100\n"
-"PO-Revision-Date: 2014-05-14 20:10+0100\n"
+"POT-Creation-Date: 2014-05-15 13:21+0100\n"
+"PO-Revision-Date: 2014-05-15 13:22+0100\n"
 "Last-Translator: Sebastien <sebastien@sebs-studio.com>\n"
 "Language-Team: Sebastien Dumont <mailme@sebastiendumont.com>\n"
 "Language: en_US\n"
@@ -28,16 +28,12 @@ msgid "Sorry, %s requires WordPress "
 msgstr ""
 
 #: includes/widget.php:30
-msgid ""
-"Display a banner of your choice that links to your AffiliateWP referral link."
+#, php-format
+msgid "Display a banner of your choice that links to your %s referral link."
 msgstr ""
 
 #: includes/widget.php:32
-msgid "AffiliateWP Affiliate Banner"
-msgstr ""
-
-#: includes/widget.php:37
-msgid "Affiliate WP"
+msgid "Affiliate Banner"
 msgstr ""
 
 #: includes/widget.php:38
@@ -52,12 +48,16 @@ msgstr ""
 msgid "Open link in a new window ?"
 msgstr ""
 
-#: includes/widget.php:54
+#: includes/widget.php:54 includes/widget.php:55
 msgid "Get Started"
 msgstr ""
 
+#: includes/widget.php:54
+msgid "Red Ad"
+msgstr ""
+
 #: includes/widget.php:55
-msgid "Get Started White"
+msgid "White Ad"
 msgstr ""
 
 #: includes/widget.php:60

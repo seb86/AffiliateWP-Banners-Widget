@@ -27,14 +27,14 @@ class AffiliateWP_Affiliate_Banners extends WP_Widget {
 	 */
 	public function __construct() {
 		$this->widget_cssclass 		= 'affiliatewp widget_banner';
-		$this->widget_description 	= __( 'Display a banner of your choice that links to your AffiliateWP referral link.', 'affiliatewp-banners-widget' );
+		$this->widget_description 	= sprintf( __( 'Display a banner of your choice that links to your %s referral link.', 'affiliatewp-banners-widget' ), 'AffiliateWP' );
 		$this->widget_id 			= 'affiliate_wp_banner_widget';
-		$this->widget_name 			= __( 'AffiliateWP Affiliate Banner', 'affiliatewp-banners-widget' );
+		$this->widget_name 			= 'AffiliateWP ' . __( 'Affiliate Banner', 'affiliatewp-banners-widget' );
 
 		$this->settings = array(
 			'title' 			=> array(
 				'type' 			=> 'text',
-				'std' 			=> __( 'Affiliate WP', 'affiliatewp-banners-widget' ),
+				'std' 			=> 'AffiliateWP',
 				'label' 		=> __( 'Title', 'affiliatewp-banners-widget' )
 			),
 			'affiliate_url' 	=> array(
@@ -51,8 +51,8 @@ class AffiliateWP_Affiliate_Banners extends WP_Widget {
 					'125x125' 					=> '125x125', 
 					'234x60' 					=> '234x60', 
 					'300x250' 					=> '300x250', 
-					'300x250-get-started' 		=> '300x250 - ' . __( 'Get Started', 'affiliatewp-banners-widget' ), 
-					'300x250-get-started-white' => '300x250 - ' . __( 'Get Started White', 'affiliatewp-banners-widget' ), 
+					'300x250-get-started' 		=> '300x250 - ' . __( 'Get Started', 'affiliatewp-banners-widget' ) . ' - ' . __( 'Red Ad', 'affiliatewp-banners-widget' ), 
+					'300x250-get-started-white' => '300x250 - ' . __( 'Get Started', 'affiliatewp-banners-widget' ) . ' - ' . __( 'White Ad', 'affiliatewp-banners-widget' ), 
 					'300x600-white' 			=> '300x600', 
 					'468x60' 					=> '468x60', 
 					'728x90' 					=> '728x90'
