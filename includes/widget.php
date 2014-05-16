@@ -130,7 +130,8 @@ class AffiliateWP_Affiliate_Banners extends WP_Widget {
 			}
 			// Window
 			$open_in = ( $window != '' ) ? '_blank': '_parent';
-			echo '<a href="' . $affiliate_url . '" target="' . $open_in . '"><img src="' . AFFILIATEWP_BANNERS_WIDGET_ASSETS . '' . $size . '.png" /></a>';
+			$alt_text = __( 'The best affiliate marketing plugin for WordPress', 'affiliatewp-banners-widget' );
+			echo '<a href="' . $affiliate_url . '" target="' . $open_in . '"><img src="' . AFFILIATEWP_BANNERS_WIDGET_ASSETS . '' . $size . '.png" alt="' . $alt_text . '" /></a>';
 			echo '</div>';
 		}
 		echo $args['after_widget'];
